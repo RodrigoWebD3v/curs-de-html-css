@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+.navegacao {
+    position: absolute;
+    right: 0px;
+    top: 110px;
+}
+.navegacao li{
+    display: inline;
+    list-style: none;
+    margin-left: 30px ;
+}
+.navegacao a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navegacao a:hover{
+    color: #C79c;
+    text-decoration: underline;
+}
+form{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-bottom: 10px;
+}
+form label, form legend{
+    display: block;
+    font-size: 0 0 20px;
+    font-size: 20px;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+
+}
+fieldset{
+    border:none;
+}
+
+input{
+    padding-top: 20px;
+}
+.check-box{
+    margin: 20px;
+    margin-left: 0;
+}
+
+.enviar{
+    /* box-sizing: border-box; */
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all; 
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: orangered;
+    transform: scale(1.1);
+    
+}
+table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+td, th{
+    
+    border: 1px solid black;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url("img-barba/bg.jpg");
+    padding: 40px 0;
+}
