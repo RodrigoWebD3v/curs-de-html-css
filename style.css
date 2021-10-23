@@ -120,13 +120,33 @@ footer{
 }
 .imagem-beneficios{
     width: 60%;
+    opacity: 0.7;
+    box-shadow: 3px 3px 5px 5px black ;
     
  }
 .beneficios{
     width: 3em 0;
     background-color: #888888;
+    padding: 48px 0px;
 }
  .video{
      width: 560px;
      margin: 2em auto;
+ }
+
+ @media (max-width: 480px){
+     
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video
+        {width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    .navegacao{
+        position: static;
+    }
+    
+    .lista-beneficios, .imagem-beneficios{
+        width: 100%;
+    }
  }
