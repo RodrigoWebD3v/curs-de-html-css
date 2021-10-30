@@ -8,11 +8,17 @@ main{
     width: 940px;
     margin: 0 auto;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 header{
     background-color: #bbbbbb;
     padding: 20px 0;
+    text-decoration: none;
+    
 }
+
 .caixa{
     position: relative;
     width: 940px;

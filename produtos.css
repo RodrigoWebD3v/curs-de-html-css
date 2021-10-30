@@ -4,10 +4,17 @@
     padding: 0%;
     margin: 0%;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
 
 header{
     background-color: #bbbbbb;
     padding: 20px 0;
+    
 }
 .caixa{
     position: relative;
